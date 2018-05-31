@@ -23,12 +23,17 @@ class ModelClass {
     
     func image(completion:@escaping (UIImage) -> Void) {
         
-        APIService.shared.downloadMage(FromLink: link) { (image) in
-            DispatchQueue.main.async {
-                completion(image)
-            }
+        if let image = cacheClass.image(forkey: String(id) ) {
+            completion(image)
+        }else{
+            APIService.shared.downloadMage(FromLink: link) { (image) in
+               cacheClass.add(image, forkey: String(self.id))
+                    completion(image)
             
+            }
         }
+        
+       
         
     }
     

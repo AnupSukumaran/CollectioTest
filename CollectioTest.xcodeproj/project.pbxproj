@@ -16,6 +16,7 @@
 		5A1A45F020C00C4F00380F11 /* ModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A45EF20C00C4F00380F11 /* ModelClass.swift */; };
 		5A1A45F220C00E8000380F11 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A45F120C00E8000380F11 /* ImagesCollectionViewCell.swift */; };
 		5A1A45F420C0157D00380F11 /* ImageCollect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A45F320C0157D00380F11 /* ImageCollect.swift */; };
+		5A1A45F620C02EAB00380F11 /* CacheClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A45F520C02EAB00380F11 /* CacheClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5A1A45EF20C00C4F00380F11 /* ModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelClass.swift; sourceTree = "<group>"; };
 		5A1A45F120C00E8000380F11 /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
 		5A1A45F320C0157D00380F11 /* ImageCollect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollect.swift; sourceTree = "<group>"; };
+		5A1A45F520C02EAB00380F11 /* CacheClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				5A1A45DB20C0082300380F11 /* AppDelegate.swift */,
 				5A1A45EF20C00C4F00380F11 /* ModelClass.swift */,
 				5A1A45ED20C0088300380F11 /* APIService.swift */,
+				5A1A45F520C02EAB00380F11 /* CacheClass.swift */,
 				5A1A45F120C00E8000380F11 /* ImagesCollectionViewCell.swift */,
 				5A1A45DD20C0082300380F11 /* ViewController.swift */,
 				5A1A45DF20C0082300380F11 /* Main.storyboard */,
@@ -149,6 +152,7 @@
 			files = (
 				5A1A45DE20C0082300380F11 /* ViewController.swift in Sources */,
 				5A1A45EE20C0088300380F11 /* APIService.swift in Sources */,
+				5A1A45F620C02EAB00380F11 /* CacheClass.swift in Sources */,
 				5A1A45F420C0157D00380F11 /* ImageCollect.swift in Sources */,
 				5A1A45F020C00C4F00380F11 /* ModelClass.swift in Sources */,
 				5A1A45F220C00E8000380F11 /* ImagesCollectionViewCell.swift in Sources */,
